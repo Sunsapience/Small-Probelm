@@ -9,10 +9,7 @@ def cross_product(p0,p1,p2):
 def Polygon_cross_product(points):
     result = []
     for i in range(0,len(points)):
-        if i == len(points)-1:
-            p0,p1,p2=points[i],points[i-1],points[0]
-        else:
-            p0,p1,p2=points[i],points[i-1],points[i+1]
+        p0,p1,p2=points[i],points[i-1],points[(i+1) % len(points)]
         result.append(cross_product(p0,p1,p2))
     return result
 
