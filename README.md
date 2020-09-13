@@ -12,3 +12,7 @@ C实现，Python实现。
 
 ## [4]最短路径算法
 ### Bellman-Ford算法
+该算法可视为Dijkstor算法的改进算法，
+我们
+他们\<br>
+你们
